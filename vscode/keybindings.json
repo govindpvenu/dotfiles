@@ -1,0 +1,11 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+alt+f",
+    "command": "tailwind-fold.toggleAutoFold"
+  },
+  {
+    "key": "ctrl+alt+a",
+    "command": "-tailwind-fold.toggleAutoFold"
+  }
+]
