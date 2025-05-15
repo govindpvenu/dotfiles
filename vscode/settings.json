@@ -38,7 +38,7 @@
   "github.copilot.nextEditSuggestions.enabled": true,
   "github.copilot.selectedCompletionModel": "",
 
-  //New
+  //Next js file convention
   "workbench.editor.customLabels.patterns": {
     "**/app/**/page.tsx": "${dirname} | page.tsx",
     "**/app/**/layout.tsx": "${dirname} | layout.tsx",
@@ -48,5 +48,13 @@
     "**/app/**/error.tsx": "${dirname} | error.tsx",
     "**/app/**/not-found.tsx": "${dirname} | not-found.tsx",
     "**/index.tsx": "${dirname} | index.tsx"
+  },
+  // New
+  // Tailwind CSS
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
   }
 }
