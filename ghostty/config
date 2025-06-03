@@ -83,3 +83,4 @@
 # resize-overlay-duration = 4s 200ms
 
 theme = catppuccin-mocha
+font-family = "FiraCode Nerd Font Mono"
