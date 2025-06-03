@@ -1,4 +1,4 @@
-## Untrap YouTube Extention Config
+## Untrap YouTube Extension Config
 
 ##### For Zen Browser
 
