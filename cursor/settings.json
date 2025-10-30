@@ -1,3 +1,65 @@
 {
-  "workbench.activityBar.orientation": "vertical"
+  //Appearance
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "\"FiraCode Nerd Font\"",
+  "terminal.integrated.fontLigatures.enabled": true,
+  "terminal.integrated.fontFamily": "\"FiraCode Nerd Font\"",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.minimap.renderCharacters": false,
+  "editor.cursorStyle": "line-thin",
+  "editor.minimap.autohide": true,
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+
+  //Text Editor
+  "files.autoSave": "onWindowChange",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.validate": ["javascript", "typescript"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  //Extentions
+  "tailwind-fold.foldStyle": "QUOTES",
+  "tailwind-fold.foldedText": "",
+  "tailwind-fold.autoFold": false,
+  "projectManager.git.baseFolders": ["/home/govindpvenu/Projects", ""],
+
+  //Other
+  "chat.agent.enabled": true,
+  "terminal.integrated.defaultProfile.linux": "fish",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.selectedCompletionModel": "",
+
+  //Next js file convention
+  "workbench.editor.customLabels.patterns": {
+    "**/app/**/page.tsx": "${dirname} | page.tsx",
+    "**/app/**/layout.tsx": "${dirname} | layout.tsx",
+    "**/app/**/route.ts": "${dirname} | route.ts",
+    "**/app/**/template.tsx": "${dirname} | template.tsx",
+    "**/app/**/loading.tsx": "${dirname} | loading.tsx",
+    "**/app/**/error.tsx": "${dirname} | error.tsx",
+    "**/app/**/not-found.tsx": "${dirname} | not-found.tsx",
+    "**/index.tsx": "${dirname} | index.tsx"
+  },
+  // New
+  // Tailwind CSS
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+
+  "workbench.activityBar.orientation": "vertical",
+  "cursor.composer.shouldChimeAfterChatFinishes": true,
+  "cursor.cpp.enablePartialAccepts": true,
+  "chatgpt.cliExecutable": ""
 }
