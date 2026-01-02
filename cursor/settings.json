@@ -61,5 +61,6 @@
   "workbench.activityBar.orientation": "vertical",
   "cursor.composer.shouldChimeAfterChatFinishes": true,
   "cursor.cpp.enablePartialAccepts": true,
-  "chatgpt.cliExecutable": ""
+  "chatgpt.cliExecutable": "",
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }
