@@ -1,0 +1,19 @@
+[/]
+control-center=['<Super>i']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/']
+help=@as []
+home=['<Super>e']
+volume-down=@as []
+volume-mute=['<Super>Pause']
+volume-up=@as []
+www=['<Super>b']
+
+[custom-keybindings/custom0]
+binding='<Control><Alt>t'
+command='ghostty'
+name='Ghostty'
+
+[custom-keybindings/custom1]
+binding='<Super>d'
+command='nautilus "/home/govindpvenu/Downloads"'
+name='Downloads'
